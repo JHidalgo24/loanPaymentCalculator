@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Approval Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <h1>Loan Approval</h1>
+    <form id="LoanForm">
+        <section><label for="creditScore">Credit Score</label>&nbsp;<input type="number" id="creditScore" min="300" max="850" placeholder="0"></section>
+        <br>
+        <section><label for="salary">Salary</label>&nbsp;<input type="number" id="salary" min="0" max="184,460" placeholder="$0"></section>
+        <br>
+        <section><label for="monthsAtJob">Months at Job</label>&nbsp;<input type="number" id="monthsAtJob" min="0" max="" placeholder="0"></section>
+
+        <div class="container">
+            <br>
+            <button>Submit</button>
+        </div>
+
+        <h1 id="output"></h1>
+
+    </form>
+
+</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</html>
